@@ -1,0 +1,30 @@
+/* PFEncoreSansPro @font-face kit */ 
+@font-face {
+  font-family: 'PFEncoreSansProblck';
+  src: url('PFHandbookPro-Bold.ttf');
+  /*src: url('../fonts/PFEncoreSansPro-Blackd41d.eot?#iefix') format('embedded-opentype'), url('../fonts/PFEncoreSansPro-Black.woff') format('woff'), url('../fonts/PFEncoreSansPro-Black.ttf') format('truetype'), url('../fonts/PFEncoreSansPro-Black.svg#bcc26993292869431e54c666aafa8fcd') format('svg');*/
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PFHandbookProbld';
+  src: url('PFHandbookPro-Black.ttf');
+  /*src: url('../fonts/PFEncoreSansProd41d.otf?#iefix') format('embedded-opentype'), url('../fonts/PFEncoreSansPro-Bold.woff') format('woff'), url('../fonts/PFEncoreSansPro-Bold.ttf') format('truetype'), url('../fonts/PFEncoreSansPro-Bold.svg#bcc26993292869431e54c666aafa8fcd') format('svg');*/
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PFEncoreSansPromed';
+  src: url('PFHandbookPro-Bold.ttf');
+  /*src: url('../fonts/PFEncoreSansPro-Mediumd41d.otf?#iefix') format('embedded-opentype'), url('../fonts/PFEncoreSansPro-Medium.woff') format('woff'), url('../fonts/PFEncoreSansPro-Medium.ttf') format('truetype'), url('../fonts/PFEncoreSansPro-Medium.svg#bcc26993292869431e54c666aafa8fcd') format('svg');*/
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PFEncoreSansPro-book';
+  src: url('PFHandbookPro-Regular.ttf');
+  /*src: url('../fonts/PFEncoreSansPro-Bookd41d.otf?#iefix') format('embedded-opentype'), url('../fonts/PFEncoreSansPro-Book.woff') format('woff'), url('../fonts/PFEncoreSansPro-Book.ttf') format('truetype'), url('../fonts/PFEncoreSansPro-Book.svg#bcc26993292869431e54c666aafa8fcd') format('svg');*/
+  font-weight: 400;
+  font-style: normal;
+}
+

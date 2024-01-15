@@ -1,0 +1,233 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro&display=swap');
+@font-face {
+  font-family: Pf-font;
+  src: url('assets/fonts/Pf-font.otf');
+}
+ 
+.header_blue_title {
+	color: #4ea2e3;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 600;	
+}
+
+body {
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+.col-form-label {
+	font-weight: 600;
+    font-size: 12px;
+    color: #000;
+}
+
+.btn_edit_enrollment {
+	float: right;
+    border: 1px solid #f6b13e;
+    padding:10px 30px;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #f6b13e;
+    font-size: 13px;
+}
+.btn_reset_enrollment {
+	float: right;
+    border: 1px solid #c67074;
+    padding:10px 30px;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #c67074;
+    font-size: 13px;
+}
+.btn_addmore_enrollment {
+	float: right;
+    border: 1px dashed #26a65b;
+    padding:10px 30px;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #26a65b;
+    font-size: 13px;
+}
+.table thead th {
+	border:none;
+	font-weight: 500;
+}
+.table tr th, table tr td {
+	border: none;
+	font-size: 13px;
+    font-weight: 600
+}
+.bg_table_enrollment {
+	background: #4592e7;
+	color: #fff;
+	font-size: 13px;
+	font-family: 'Maven Pro', sans-serif;
+}
+.table td, .table th {
+	border: none !important;
+}
+.table-striped {
+	background: #f3f8fb !important;
+}
+.accordian_enrollment {
+	background: #fff !important;
+	padding-top: 10px;
+}
+.according .card-header a {
+	padding: 16px 5px;
+	border-radius: 0px !important;
+}
+.border_bottom_enrollment_none {
+	border: 1px solid #fff !important;
+	}
+.according .card {
+	margin-bottom: 0px;
+}
+.border_bottom_enrollment{
+    border-bottom: 1px solid #e1e1e1;
+    border-radius: 0px;
+}
+.custom-control-label {
+    font-weight: 600;
+    color: #000 !important;
+    font-size: 14px;
+    font-family: 'Maven Pro', sans-serif;
+    padding-left: 7px;
+}
+.custom-checkbox .custom-control-input:disabled:checked~.custom-control-label::before {
+    border: 1px solid #000;
+    background: #fff !important;
+    border-radius: 0px;
+    
+}
+.custom-control-label::after {
+    width: 20px;
+    height: 20px;
+}
+.custom-control-label::before {
+    width: 20px;
+    height: 20px;
+}
+.enrollment_accordian_content {
+	font-weight: 500;
+    color: #807d7d;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 14px;
+}
+
+.border_left_yellow {
+	border-left:4px solid #fdd375;
+}
+.table_enroll tr:nth-child(even) {
+  background-color: #f3f8fb !important;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+	background: #fff !important;
+}
+.form-control {
+    background: #f3f8fb !important;
+    border: 1px solid #fff !important;
+    border-radius: 0px !important;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 13px;
+}
+.policy_card_list li {
+   padding-bottom:10px;
+}
+.members_policy_text {
+	font-family: 'Maven Pro', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    padding-left: 3px;
+}
+.dot_active {
+  height: 13px;
+  width: 13px;
+  background-color: #417505;
+  border-radius: 50%;
+  display: inline-block;
+}
+.health_ecard_btn {
+	padding: 10px 14px;
+    border: 1px solid #5098e8;
+    background: #fff;
+    color: #5098e8;
+    font-weight: 600;
+}
+.card-body {
+	box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+}
+.active_text {
+	color: #417505;
+	font-weight: 600;
+	font-size: 15px;
+	padding-left: 4px;
+}
+.green_text {
+	color: #417505;
+}
+.bluey_text{
+	color: #3a4670;
+}
+.dot_inactive {
+  height: 13px;
+  width: 13px;
+  background-color: #f44336;
+  border-radius: 50%;
+  display: inline-block;
+}
+.inactive_text {
+	color: #f44336;
+	font-weight: 600;
+	font-size: 15px;
+	padding-left: 4px;
+}
+.flex_header_title {
+	margin-bottom: 11px;
+    margin-top: 4px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 600;
+}
+
+body {
+	font-family: 'Maven Pro', sans-serif;
+}
+
+.flex_content {
+	font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #607D8B;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.flex_allocate_text {
+	color: #ffc66c;
+    font-weight: 600;
+    font-size: 14px;
+}
+.flex_amt {
+	color: #000;
+    font-weight: 600;
+    font-size: 14px;
+}
+.flex_balance_text {
+	color: #72d8ff;
+    font-weight: 600;
+    font-size: 14px;
+}
+.allocate_btn_flex {
+	padding: 10px 14px;
+    border: 1px solid #5098e8;
+    background: #5098e8;
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Maven Pro', sans-serif;
+}
+.form_center_header {
+	margin-top: 10px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 600;
+}

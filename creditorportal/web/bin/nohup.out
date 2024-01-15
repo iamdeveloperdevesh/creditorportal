@@ -1,0 +1,93 @@
+
+New connection! (61)
+resourceid----------61PHP Notice:  Trying to get property of non-object in /var/www/html/benefitz.in/websocket/src/Dropoff.php on line 20
+PHP Notice:  Trying to get property of non-object in /var/www/html/benefitz.in/websocket/src/Dropoff.php on line 27
+Connection2323 61 sending message "" to 0 other connections
+New connection! (83)
+resourceidclosure----------83update  temp_dropoff set sendemail = 'Y' where empid =83Connection 83 has disconnected
+New connection! (87)
+resourceid----------87Connection2323 87 sending message "12345678" to 2 other connections
+resourceid----------87Connection2323 87 sending message "1" to 2 other connections
+resourceidclosure----------87update  temp_dropoff set sendemail = 'Y' where empid =87Connection 87 has disconnected
+resourceidclosure----------61update  temp_dropoff set sendemail = 'Y' where empid =61Connection 61 has disconnected
+New connection! (96)
+resourceid----------96PHP Notice:  Trying to get property of non-object in /var/www/html/benefitz.in/websocket/src/Dropoff.php on line 20
+PHP Notice:  Trying to get property of non-object in /var/www/html/benefitz.in/websocket/src/Dropoff.php on line 27
+Connection2323 96 sending message "" to 3 other connections
+New connection! (100)
+resourceid----------100PHP Notice:  Trying to get property of non-object in /var/www/html/benefitz.in/websocket/src/Dropoff.php on line 20
+PHP Notice:  Trying to get property of non-object in /var/www/html/benefitz.in/websocket/src/Dropoff.php on line 27
+Connection2323 100 sending message "" to 4 other connections
+New connection! (104)
+resourceid----------104PHP Notice:  Trying to get property of non-object in /var/www/html/benefitz.in/websocket/src/Dropoff.php on line 20
+PHP Notice:  Trying to get property of non-object in /var/www/html/benefitz.in/websocket/src/Dropoff.php on line 27
+Connection2323 104 sending message "" to 5 other connections
+New connection! (108)
+resourceid----------108PHP Notice:  Trying to get property of non-object in /var/www/html/benefitz.in/websocket/src/Dropoff.php on line 20
+PHP Notice:  Trying to get property of non-object in /var/www/html/benefitz.in/websocket/src/Dropoff.php on line 27
+Connection2323 108 sending message "" to 6 other connections
+resourceidclosure----------100update  temp_dropoff set sendemail = 'Y' where empid =100Connection 100 has disconnected
+resourceidclosure----------104update  temp_dropoff set sendemail = 'Y' where empid =104Connection 104 has disconnected
+New connection! (117)
+resourceid----------117PHP Notice:  Trying to get property of non-object in /var/www/html/benefitz.in/websocket/src/Dropoff.php on line 20
+PHP Notice:  Trying to get property of non-object in /var/www/html/benefitz.in/websocket/src/Dropoff.php on line 27
+Connection2323 117 sending message "" to 7 other connections
+resourceidclosure----------117update  temp_dropoff set sendemail = 'Y' where empid =117Connection 117 has disconnected
+New connection! (122)
+resourceid----------122Connection2323 122 sending message "3167" to 8 other connections
+resourceidclosure----------96update  temp_dropoff set sendemail = 'Y' where empid =96Connection 96 has disconnected
+New connection! (128)
+resourceid----------128Connection2323 128 sending message "3265" to 9 other connections
+resourceidclosure----------128update  temp_dropoff set sendemail = 'Y' where empid =128Connection 128 has disconnected
+New connection! (134)
+resourceid----------134Connection2323 134 sending message "3265" to 10 other connections
+resourceidclosure----------134update  temp_dropoff set sendemail = 'Y' where empid =134Connection 134 has disconnected
+New connection! (140)
+resourceid----------140Connection2323 140 sending message "3265" to 11 other connections
+resourceidclosure----------140update  temp_dropoff set sendemail = 'Y' where empid =140Connection 140 has disconnected
+New connection! (146)
+resourceid----------146Connection2323 146 sending message "3265" to 12 other connections
+resourceidclosure----------108update  temp_dropoff set sendemail = 'Y' where empid =108Connection 108 has disconnected
+New connection! (152)
+resourceid----------152Connection2323 152 sending message "3268" to 13 other connections
+resourceidclosure----------146update  temp_dropoff set sendemail = 'Y' where empid =146Connection 146 has disconnected
+New connection! (158)
+resourceid----------158Connection2323 158 sending message "3265" to 14 other connections
+resourceidclosure----------158update  temp_dropoff set sendemail = 'Y' where empid =158Connection 158 has disconnected
+New connection! (164)
+resourceid----------164PHP Notice:  Trying to get property of non-object in /var/www/html/benefitz.in/websocket/src/Dropoff.php on line 20
+PHP Notice:  Trying to get property of non-object in /var/www/html/benefitz.in/websocket/src/Dropoff.php on line 27
+Connection2323 164 sending message "" to 15 other connections
+New connection! (168)
+resourceid----------168Connection2323 168 sending message "3265" to 16 other connections
+resourceidclosure----------168update  temp_dropoff set sendemail = 'Y' where empid =168Connection 168 has disconnected
+New connection! (174)
+resourceid----------174Connection2323 174 sending message "3265" to 17 other connections
+resourceidclosure----------174update  temp_dropoff set sendemail = 'Y' where empid =174Connection 174 has disconnected
+resourceidclosure----------152update  temp_dropoff set sendemail = 'Y' where empid =152Connection 152 has disconnected
+New connection! (181)
+resourceid----------181Connection2323 181 sending message "3270" to 18 other connections
+New connection! (186)
+resourceid----------186Connection2323 186 sending message "3265" to 19 other connections
+resourceidclosure----------181update  temp_dropoff set sendemail = 'Y' where empid =181Connection 181 has disconnected
+New connection! (192)
+resourceid----------192Connection2323 192 sending message "3270" to 20 other connections
+resourceidclosure----------192update  temp_dropoff set sendemail = 'Y' where empid =192Connection 192 has disconnected
+New connection! (198)
+resourceid----------198Connection2323 198 sending message "3270" to 21 other connections
+resourceidclosure----------198update  temp_dropoff set sendemail = 'Y' where empid =198Connection 198 has disconnected
+New connection! (204)
+resourceid----------204Connection2323 204 sending message "3270" to 22 other connections
+resourceidclosure----------186update  temp_dropoff set sendemail = 'Y' where empid =186Connection 186 has disconnected
+New connection! (210)
+resourceid----------210Connection2323 210 sending message "3265" to 23 other connections
+resourceidclosure----------204update  temp_dropoff set sendemail = 'Y' where empid =204Connection 204 has disconnected
+New connection! (216)
+resourceid----------216Connection2323 216 sending message "3270" to 24 other connections
+resourceidclosure----------216update  temp_dropoff set sendemail = 'Y' where empid =216Connection 216 has disconnected
+New connection! (222)
+resourceid----------222Connection2323 222 sending message "3270" to 25 other connections
+resourceidclosure----------222update  temp_dropoff set sendemail = 'Y' where empid =222Connection 222 has disconnected
+New connection! (228)
+resourceid----------228Connection2323 228 sending message "3270" to 26 other connections
+resourceidclosure----------228update  temp_dropoff set sendemail = 'Y' where empid =228Connection 228 has disconnected

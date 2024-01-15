@@ -1,0 +1,1 @@
+[Sat Nov 07 12:19:51.021121 2020] [:error] [pid 31998] [client 103.59.188.234:27329] PHP Fatal error:  Cannot redeclare Apimodel::emandate_HB_call() in /var/www/html/benefitz.in/creditoruat/application/modules/api2/models/Apimodel.php on line 1398

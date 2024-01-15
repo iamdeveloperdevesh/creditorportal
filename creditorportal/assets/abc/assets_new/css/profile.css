@@ -1,0 +1,24 @@
+.form-text-input {
+	padding-left: 0px;
+	padding-top: 0px; 
+	font-family: Poppins;
+	font-weight: 600;
+}
+input, select {
+	border-bottom: none !important;
+}
+.form-input {
+	border-top: none;
+    border-left: none;
+    border-right: none;
+    font-family: Poppins;
+}
+.textarea:focus, input:focus {
+	padding-top: 0px;
+}
+.form-input:focus, input:focus {
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   font-family: Poppins;
+}

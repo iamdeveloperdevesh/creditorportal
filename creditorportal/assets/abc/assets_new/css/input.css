@@ -1,0 +1,226 @@
+
+@font-face {
+  font-family: Pf-font;
+  src: url('assets/fonts/Pf-font.otf');
+}
+@import url('https://fonts.googleapis.com/css?family=PT+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro&display=swap');
+.tm-title h4 {
+	font-family: 'Maven Pro', sans-serif;
+}
+.form-input {
+		padding-top: 0px;
+		border-top: 1px solid #aaaaaa4d;
+		border-left: 1px solid #aaaaaa4d;
+		border-right: 1px solid #aaaaaa4d;
+		border-radius: 3px;
+		font-family: 'Maven Pro', sans-serif;
+		}
+		.form-group {
+		margin-bottom: 20px;
+		position: relative;
+		font-family: 'Maven Pro', sans-serif;
+		}
+		input, select {
+		box-sizing: border-box;
+		width: 100%;
+		display: block;
+		border: none;
+		font-family: Poppins;
+		color: #fff;
+		background: transparent;
+		border-bottom: 1px solid #aaaaaa4d;
+		padding: 4px 0;
+		font-family: 'Maven Pro', sans-serif;
+		}
+		input {
+		transition: 0.3s ease;
+		-moz-transition: 0.3s ease;
+		-webkit-transition: 0.3s ease;
+		-o-transition: 0.3s ease;
+		-ms-transition: 0.3s ease;
+		padding-top: 10px;
+		-webkit-appearance: none;
+		font-family: 'Maven Pro', sans-serif;
+		}
+		input, select, textarea {
+		outline: none;
+		appearance: unset !important;
+		-moz-appearance: unset !important;
+		-webkit-appearance: unset !important;
+		-o-appearance: unset !important;
+		-ms-appearance: unset !important;
+		font-family: 'Maven Pro', sans-serif;
+		}
+		input {
+		-webkit-writing-mode: horizontal-tb !important;
+		text-rendering: auto;
+		color: initial;
+		letter-spacing: normal;
+		word-spacing: normal;
+		text-transform: none;
+		text-indent: 0px;
+		text-shadow: none;
+		display: inline-block;
+		text-align: start;
+		-webkit-appearance: textfield;
+		background-color: white;
+		-webkit-rtl-ordering: logical;
+		cursor: text;
+		margin: 0em;
+		font: 400 13.3333px Arial;
+		padding: 1px 0px;
+		border-width: 2px;
+		border-style: inset;
+		border-color: initial;
+		border-image: initial;
+		font-family: 'Maven Pro', sans-serif;
+		}
+		.form-label {
+		position: absolute;
+		transition: 0.25s ease;
+		-moz-transition: 0.25s ease;
+		-webkit-transition: 0.25s ease;
+		-o-transition: 0.25s ease;
+		-ms-transition: 0.25s ease;
+		color: #270f49;
+		left: 0;
+		left: 14px;
+		top: 12px;
+		font-size: 14px;
+		font-family: 'Maven Pro', sans-serif;
+		}
+		input:focus, select:focus {
+		border-bottom: 1px solid #edb77d;
+		font-family: 'Maven Pro', sans-serif;
+		}
+		input:focus, select:focus, textarea:focus {
+		outline: none;
+		box-shadow: none !important;
+		-moz-box-shadow: none !important;
+		-webkit-box-shadow: none !important;
+		-o-box-shadow: none !important;
+		-ms-box-shadow: none !important;
+		font-family: 'Maven Pro', sans-serif;
+		}
+		input, select {
+		box-sizing: border-box;
+		width: 100%;
+		display: block;
+		border: none;
+		font-family: 'Maven Pro', sans-serif;
+		color: #000;
+		background: transparent;
+		border-bottom: 1px solid #aaaaaa4d;
+		padding: 4px 0;
+		cursor: pointer;
+		}
+		input:focus + .form-label, input:valid + .form-label {
+		top: 5px;
+		font-size: 11px;
+		color: #edb77d;
+		font-family: 'Maven Pro', sans-serif;
+		}
+		select:focus + .form-label, select:valid + .form-label {
+		top: 5px;
+		font-size: 11px;
+		color: #edb77d;
+		font-family: 'Maven Pro', sans-serif;
+		}
+		.form-text-input {
+		padding-left: 16px;
+		font-family: 'Maven Pro', sans-serif;
+		padding-top: 16px;
+		}
+		textarea:focus, input:focus {
+	    font-family: 'Maven Pro', sans-serif;
+		padding-top: 16px;
+		border-color: #80bdff;
+        outline: 0;
+        box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+		}
+		.form-input:focus, input:focus {
+		font-family: 'Maven Pro', sans-serif;
+		padding-top: 16px;
+		border-color: #80bdff;
+        outline: 0;
+        border-top: 1px solid #80bdff;
+		border-left: 1px solid #80bdff;
+		border-right: 1px solid #80bdff;
+        box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);	
+		}
+		.custom-checkbox .custom-control-label::before {
+			border-radius: 0px !important;
+		}
+		.padding_left_confirm {
+			padding-left: 11px;
+		}
+		.confirm_content {
+			font-family: 'Maven Pro', sans-serif;
+		}
+		.confirm_insider {
+		   font-family: 'Maven Pro', sans-serif;
+		   font-size: 14px;
+		}
+		.padding_zero {
+		   padding: 0px;
+		}
+		.summary_li {
+			font-family: 'PT Mono', monospace;
+			font-weight: 500;
+            font-size: 12px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+		}
+		.flort_right_content {
+			float: right;
+		}
+		.header_summary_li {
+			border-bottom: 1px dashed #c3acc7;
+            padding-bottom: 3px;
+		}
+		.pad_lf_amt {
+			padding-left: 5px;
+			color: #e6a94e !important;
+		}
+		.pad_lf_zero {
+			padding-left: 0px;
+			color: #607D8B;
+		}
+		.benefit_accordian {
+        background-color: #fff;
+        color: #e6a94e;
+        cursor: pointer;
+        padding: 11px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 13px;
+        transition: 0.4s;
+       /* font-family: 'Maven Pro', sans-serif;*/
+        }
+        .benefit_accordian.active {
+        /*background-color: #000;*/
+        }
+        .benefit_accordian_panel{
+        padding: 0 18px;
+        display: none;
+        background-color: white;
+        overflow: hidden;
+        /*font-family: 'Maven Pro', sans-serif !important;*/
+        border-top: 1px dashed #ddd;
+       
+        }
+        .padding_stone {
+        font-family: 'Maven Pro', sans-serif !important;
+        }
+        .pad_right_zero {
+          padding-right: 5px;
+
+        }
+        select.form-control:not([size]):not([multiple]) {
+        	background: #000;
+        }

@@ -1,0 +1,16 @@
+
+eb.benefitz.in.conf -> ../sites-available/eb.benefitz.in.conf
+
+
+ServerName eb.benefitz.in
+        ServerAlias eb.benefitz.in
+        ServerAdmin atish.a@fyntune.com
+        DocumentRoot "/var/www/html/benefitz.in/eb/production/html/web/"
+		
+$conn22 = new mysqli('localhost', 'root', 'Cg04#OoI8H7O@X', 'axis_retail');		
+
+another database : eb
+
+
+
+

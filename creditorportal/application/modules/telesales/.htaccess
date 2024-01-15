@@ -1,0 +1,33 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+#Redirect 301  "application/resources/testing.php"  "https://www.paybima.com/Brochure-Young-Star-Insurance-Policy_new.pdf" [PT]
+#RewriteCond %{REQUEST_URI} ^/application/resources/testing.php
+#RewriteRule ^(.*)$ http://%{HTTP_HOST}//application/resources/testing2.php [R=301,L]
+
+RewriteRule  "^testing.php"  "/testing2.php" [PT]
+
+
+RewriteRule ^index.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php [L]
+
+ErrorDocument 404 /404.html
+
+
+#RewriteRule    "http://eb.benefitz.in/testing.php"  "http://eb.benefitz.in/testing2.php" [PT]
+Order Allow,Deny
+Allow from all
+<Files "sample_si.xls">
+#<Files ~ "\.(gif|jpg|png|pdf)$">
+Deny from all
+</Files>
+
+Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" env=HTTPS
+
+
+</IfModule>
+
+

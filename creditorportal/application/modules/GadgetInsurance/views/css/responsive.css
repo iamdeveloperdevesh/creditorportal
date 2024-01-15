@@ -1,0 +1,377 @@
+@media only screen and (min-width:768px) and (max-width:1024px)
+{
+  .qutbox {
+    flex: 0 0 52.666667% !important;
+    max-width: 44.666667% !important;
+    margin: 9px 19px 19px 19px;
+}
+.compareTableWrapStick{
+    display: none;
+  }
+  .compareHeadFilter {
+    width: 768px;
+    padding: 11px 2px;
+    margin: 12px auto 0;
+  }
+  .cmpHeadFltrItemTitle {
+    font-size: 8px;
+    line-height: 10px;
+    margin-bottom: 3px;
+  }
+  .cmpHeadFltrSec:first-child .cmpHeadFltrItem:first-child{
+    display: none;
+  }
+  .cmpHeadFltrItem:nth-child(2) {
+    padding-left: 0;
+  }
+  .cmpHeadFltrItemData {
+    font-size: 10px;
+    line-height: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .cmpHeadFltrSec:first-child .cmpHeadFltrItem:nth-child(2) .cmpHeadFltrItemData {
+    max-width: 40px;
+  }
+  .cmpHeadFltrSec:first-child .cmpHeadFltrItem:nth-child(3) .cmpHeadFltrItemData {
+    max-width: 52px;
+  }
+  .cmpHeadFltrSec:first-child .cmpHeadFltrItem:last-child .cmpHeadFltrItemData {
+    max-width: 126px;
+  }
+  .cmpHeadFltrSec:nth-child(2) .cmpHeadFltrItemData {
+    max-width: 78px;
+  }
+  .cmpHeadFltrSec:last-child .cmpHeadFltrItem:first-child .cmpHeadFltrItemData {
+    max-width: 96px;
+  }
+  .cmpHeadFltrSec:last-child .cmpHeadFltrItem:nth-child(2) .cmpHeadFltrItemData {
+    max-width: 66px;
+  }
+  .cmpHeadFltrSec:last-child .cmpHeadFltrItem:nth-child(3) .cmpHeadFltrItemData,
+  .cmpHeadFltrSec:last-child .cmpHeadFltrItem:nth-child(4) .cmpHeadFltrItemData {
+    max-width: 38px;
+  }
+  .cmpHeadFltrSec:first-child {
+    padding: 0 6px 0 0;
+    width: 112px;
+  }
+  .cmpHeadFltrSec:nth-child(2) {
+    width: 332px;
+  }
+  .cmpHeadFltrSec:last-child {
+    padding: 0 0 0 6px;
+    width: 308px;
+  }
+  .cmpHeadFltrSec:last-child .cmpHeadFltrItemTitle{
+    font-size: 7px;
+    line-height: 9px;
+  }
+  .motorCompare {
+    width: 100%;
+  }
+  .cmpHeadFltrSec {
+    padding: 0 6px;
+  }
+  .cmpHeadFltrItem {
+    padding: 0 2px 0 2px;
+  }
+  .cmpHeadFltrItem:first-child {
+    padding: 0 2px 0 0;
+  }
+  .cmpHeadFltrItem:last-child{
+    padding: 0 0 0 2px;
+  }
+  .motorCompare .backBtn button {
+    font-size: 11px;
+    line-height: 24px;
+    top: 11px;
+    left: 6px;
+  }
+  .motorCompare .backBtn button svg {
+    width: 16px;
+    height: 13px;
+    margin-top: 6px;
+  }
+  .compareTableWrap {
+    padding: 15px 8px 0;
+    overflow-x: scroll;
+  }
+  .compareTableWrap tr td:first-child.compTableSubHead {
+    font-size: 13px;
+  }
+  .compareTableWrap tr td:not(:first-child) {
+    height: 32px;
+  }
+  tr.header th {
+    font-size: 16px;
+  }
+}
+/* Mobile devices (320px and 767px) */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  /* .genralCompare .mr-5{margin:15px !important;} */
+  .compTableCombTitle {
+    font-family: 'Inter-Regular';
+    font-size: 6px;
+    line-height: 7px;
+    color: #333;
+    margin-top: 4px;
+}
+.compTableCombInsAmt{
+  nt-size: 12px;
+  line-height: 3px;
+  color: #333;
+}
+.compTableCombInsType {
+    font-family: 'Inter-Regular';
+    font-size: 11px;
+    line-height: 15px;
+    color: #333;
+    margin-bottom: 12px;
+}
+  .compTableHeadLogo {
+    display: block;
+    margin:6px auto;
+    /* margin: 22px auto 0px; */
+    /* height: 29px; */
+    display: block;
+    max-width: 95px;
+    max-height: 25px;
+    /* max-width: 66px;
+    max-height: 40px;
+    margin: 22px auto 0px;
+    height: 30px; */
+}
+  .quoteTalkExpert, .compareHeadFilter, .compareGstlabel{
+    display: none;
+  }
+  .mobLaxWrap{
+    position: relative;
+    display: block;
+    float: left;
+    width: 100%;
+    text-align: center;
+  }
+  .mobLaxWrap img{
+    display: block;
+    margin: 0 auto;
+    width: 68px;
+    height: 68px;
+    border: solid 1px #e3e4e8;
+    border-radius: 50%;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 20%);
+    margin-top: -34px;
+  }
+  .mobLaxTitle{
+    display: block;
+    margin: 0 auto;
+    font-family: 'Inter-Regular';
+    font-size: 13px;
+    line-height: 24px;
+    color: #000;
+  }
+  .motorCompare{
+    position: relative;
+    width: 100%;
+  }
+  .motorCompare .backBtn button {
+    top: 6px;
+    left: 12px;
+  }
+  .motorCompare .backBtn button svg {
+    width: 16px;
+    height: 16px;
+    margin-top: 1px;
+    margin-right: -4px;
+  }
+  .mobEmailCompBtn{
+    position: absolute;
+    bottom: -25px;
+    right: 15px;
+  }
+  .mobCarDetailBtn{
+    position: absolute;
+    bottom: -25px;
+    right: 124px;
+  }
+  .mobCarDetailBtn, .mobEmailCompBtn{
+    padding: 3px 6px;
+    font-family: 'Inter-Medium';
+    font-size: 9px;
+    line-height: 11px;
+    color: #333;
+    border-radius: 16px;
+    border: solid 1px #d0d2d9;
+    border-radius: 10px;
+    outline: none;
+    background: none;
+  }
+  .mobCarDetailBtn svg, .mobEmailCompBtn svg{
+    width: 11px;
+    height: 11px;
+    margin-bottom: -2px;
+  }
+  .compareTableWrapStick.fixed .compTableRec {
+    top: 0;
+    font-size: 6px;
+    padding: 2px;
+  }
+  .compareTableWrapStick {
+    width: calc(100% - 19px)!important;
+  }
+  .compareTableWrap table{
+    width: 100%;
+  }
+  .compareTableWrap tr td:first-child, 
+  .compareTableWrap tr td:nth-child(4), 
+  .compareTableWrap tr td:last-child {
+    display: none;
+  }
+  .compareTableWrap tr td:not(:first-child) {
+    width: calc( 100% / 2 );
+  }
+  .compareTableWrap {
+    margin-top: 70px;
+    padding: 0 10px;
+  }
+  .compTableRec {
+    top: -12px;
+    left: 8px;
+    padding: 5px 0;
+    font-size: 10px;
+    width: calc(100% - 16px);
+    text-align: center;
+    /* top: -12px;
+    left: 9px;
+    padding: 5px 0;
+    font-size: 11px;
+    width: calc(100% - 19px);
+    text-align: center;
+    line-height: 13px; */
+    /* top: -12px;
+    left: 12px;
+    padding: 5px 2px;
+    font-size: 7px;
+    width: calc(100% - 24px);
+    text-align: center; */
+  }
+  .compareTableWrap tr td:not(:first-child) {
+    width: calc( (100%) / 2 );
+    height: 81px;
+    display: none;
+    border: solid 1px #e3e4e8;
+}
+  .compTableHead {
+    padding: 12px;
+  }
+  .compTableHeadBtn {
+    height: 45px;
+    margin: 24px auto 40px;
+  }
+  .compTableHeadBtn span {
+    font-size: 10px;
+    line-height: 20px;
+  }
+  .compTableHeadBtn span:first-child {
+    font-family: 'Inter-Regular';
+    font-size: 10px;
+    line-height: 12px;
+  }
+  tr.header th {
+    padding: 24px 20px -1px;
+    height: 74px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #212529;
+    text-align: center;
+    display: table-cell;
+  }
+  .header .sign:after {
+    top: -1px;
+  }
+  .compMobTableSubHead{
+    display: table-cell;
+    font-size: 13px;
+    line-height: 24px;
+    color: #107591;
+  }
+  .compMobRowTitle{
+    position: relative;
+    display: block;
+    font-family: 'Inter-Regular';
+    font-size: 10px;
+    line-height: 14px;
+    color: #212529;
+    margin: 4px;
+  }
+  .cardTooltipSvg {
+    position: relative !important;
+    top: 4px !important;
+    margin-left: 2px !important;
+    /* margin-top: 10px; */
+  }
+  .compMobRowTitle ~ span{
+    display: block;
+    font-size: 9px;
+  }
+  .compareTableWrap table {
+    /*width: 1240px;*/
+    text-align: center;
+    table-layout: fixed;
+    margin-bottom: 40px;
+    font-size: 9px;
+}
+  .compareTableWrap tr.compTableDifCont td{
+    display: block;
+    float: left;
+    min-width: 355px;
+    height: auto;
+    padding-right: 0;
+  }
+  .compAddNoteWrap {
+    width: 100%;
+    margin-bottom: 115px;
+  }
+  .compAddNoteWrap ul {
+    padding-left: 0;
+  }
+  .compTableCombInsType {
+    font-size: 7px;
+    line-height: 8px;
+    margin-top: 6px;
+  }
+  .compTableComb2 {
+    margin-top: 14px;
+    margin-bottom: 12px;
+  }
+  .pl-0{
+    padding: 1px 25px !important;
+  }
+  .pr-0{padding: 1px 25px !important;}
+  .m-l5 {
+    margin-left: 0rem;
+    }
+    .prposal .btn-buy {
+      margin: 0;
+      padding: 10px 25px;  
+  }
+  .prposal{
+    text-align: center;
+    margin: 9px auto;
+  }
+  .proposal-form{margin-right: 1rem !important;
+    margin-left: 1rem;}
+  /* .genralCompare .mr-5{margin-right:0px !important;} */
+  .home-img img{display: none;}
+  .quotes h5{font-size: 14px;line-height: 2;}
+  .quotebtn button{font-size: 14px; padding: 2px;}
+  .qutbox {
+    flex: 0 0 99.666667% !important;
+    max-width: 96% !important;
+    margin: 9px 7px 11px 8px;
+  }
+  .ml-33{margin-left:0px;}
+  .cover_compare p{display:none;}
+  .compare_plan_name2{height:50px;}
+}
